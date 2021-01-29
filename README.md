@@ -1,12 +1,21 @@
-# Upside Down Labs MSP430 Breadstick
+# MSP430 Breadstick
 
-Upside Down Labs MSP430 Breadstick is a development board for ultra low power MSP430G2553 MCU. 
+Upside Down Labs MSP430 Breadstick is a development board for ultra low power MSP430G2553 MCU from Texas Instruments. 
 
-## Variant: Apple Sauce  
-![Upside Down Labs MSP430 Breadstick front](MSP430G2553IPW28_FT232RQ/images/MSP430G2553IPW28_FT232RQ_front.png)
-![Upside Down Labs MSP430 Breadstick back](MSP430G2553IPW28_FT232RQ/images/MSP430G2553IPW28_FT232RQ_back.png)
-![Upside Down Labs MSP430 Breadstick dimensions](MSP430G2553IPW28_FT232RQ/images/MSP430G2553IPW28_FT232RQ_dimensions.png)
-![Upside Down Labs MSP430 Breadstick schematic](MSP430G2553IPW28_FT232RQ/images/schematic.png)
+## Variant: Apple Sauce
+Apple Sauce variant of MSP430 Breadstick comes with FT232RQ USB to UART bridge.
+
+| Front              |  Back |
+| :-------------------------: | :-------------------------: |
+| ![Upside Down Labs MSP430 Breadstick front](AppleSauce/images/AppleSauce_front.png)  | ![Upside Down Labs MSP430 Breadstick back](AppleSauce/images/AppleSauce_back.png) |
+
+| Dimensions              |  Schematic |
+| :-------------------------: | :-------------------------: |
+| 65.786 x 18.542 mm![Upside Down Labs MSP430 Breadstick dimensions](AppleSauce/images/AppleSauce_dimensions.png)  | ![Upside Down Labs MSP430 Breadstick schematic](AppleSauce/images/schematic.png) |
+
+
+
+
 
 ## License
 
