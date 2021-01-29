@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "MSP430 Breadstick"
-Date ""
-Rev ""
-Comp ""
+Title "MSP430 Breadstick - Apple Sauce"
+Date "2021-01-29"
+Rev "v0.1"
+Comp "Upside Down Labs"
 Comment1 ""
 Comment2 "MSP430G2553IPW28 + FT232RQ"
 Comment3 "MSP430G2553 Dev Board"
