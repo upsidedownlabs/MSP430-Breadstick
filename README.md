@@ -17,7 +17,7 @@ Cheese Dip variant of MSP430 Breadstick comes with CH340C USB to UART bridge.
 
 | Dimensions              |  Schematic |
 | :-------------------------: | :-------------------------: |
-| 65.786 x 18.542 mm![Upside Down Labs MSP430 Breadstick dimensions](CheeseDip/images/CheeseDip_dimensions.png)  | ![Upside Down Labs MSP430 Breadstick schematic](CheeseDip/images/CheeseDip_schematic.png) |
+| 60.00 x 21.60 mm![Upside Down Labs MSP430 Breadstick dimensions](CheeseDip/images/CheeseDip_dimensions.png)  | ![Upside Down Labs MSP430 Breadstick schematic](CheeseDip/images/CheeseDip_schematic.png) |
 
 
 ## Variant: Apple Sauce
@@ -29,7 +29,7 @@ Apple Sauce variant of MSP430 Breadstick comes with FT232RQ USB to UART bridge.
 
 | Dimensions              |  Schematic |
 | :-------------------------: | :-------------------------: |
-| 60.00 x 21.60 mm![Upside Down Labs MSP430 Breadstick dimensions](AppleSauce/images/AppleSauce_dimensions.png)  | ![Upside Down Labs MSP430 Breadstick schematic](AppleSauce/images/schematic.png) |
+| 65.786 x 18.542 mm![Upside Down Labs MSP430 Breadstick dimensions](AppleSauce/images/AppleSauce_dimensions.png)  | ![Upside Down Labs MSP430 Breadstick schematic](AppleSauce/images/schematic.png) |
 
 
 ## License
