@@ -4,26 +4,15 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "MSP430 Breadstick"
-Date ""
-Rev ""
+Title "MSP430 Breadstick Cheese Dip"
+Date "2021-02-18"
+Rev "v0.5"
 Comp ""
 Comment1 ""
 Comment2 "MSP430G2553IPW28 + FT232RQ"
 Comment3 "MSP430G2553 Dev Board"
 Comment4 "Upside Down Labs MSP430 Breadstick"
 $EndDescr
-$Comp
-L Connector:USB_C_Plug_USB2.0 P1
-U 1 1 5FCB1AC5
-P 1220 5590
-F 0 "P1" H 1327 6457 50  0000 C CNN
-F 1 "USB_C_Plug_USB2.0" H 1327 6366 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1370 5590 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1370 5590 50  0001 C CNN
-	1    1220 5590
-	1    0    0    -1  
-$EndComp
 Text GLabel 1030 1190 0    50   Input ~ 0
 P1.0
 Text GLabel 1030 1290 0    50   Input ~ 0
@@ -712,24 +701,13 @@ Wire Notes Line
 $Comp
 L Device:R R5
 U 1 1 5FEA5145
-P 9550 1000
-F 0 "R5" H 9480 954 50  0000 R CNN
-F 1 "10k" H 9480 1045 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9480 1000 50  0001 C CNN
-F 3 "~" H 9550 1000 50  0001 C CNN
-	1    9550 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5FEA8D3C
-P 10290 1020
-F 0 "C5" H 10405 1066 50  0000 L CNN
-F 1 "100nF" H 10405 975 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10328 870 50  0001 C CNN
-F 3 "~" H 10290 1020 50  0001 C CNN
-	1    10290 1020
-	-1   0    0    -1  
+P 9820 1010
+F 0 "R5" H 9750 964 50  0000 R CNN
+F 1 "10k" H 9750 1055 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9750 1010 50  0001 C CNN
+F 3 "~" H 9820 1010 50  0001 C CNN
+	1    9820 1010
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R4
@@ -771,12 +749,12 @@ $EndComp
 $Comp
 L Switch:SW_SPST SW3
 U 1 1 5FF9028F
-P 10780 1040
-F 0 "SW3" H 10780 1275 50  0000 C CNN
-F 1 "SW_SPST" H 10780 1184 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 10780 1040 50  0001 C CNN
-F 3 "~" H 10780 1040 50  0001 C CNN
-	1    10780 1040
+P 10450 980
+F 0 "SW3" H 10450 1215 50  0000 C CNN
+F 1 "SW_SPST" H 10450 1124 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 10450 980 50  0001 C CNN
+F 3 "~" H 10450 980 50  0001 C CNN
+	1    10450 980 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1002,35 +980,24 @@ $EndComp
 $Comp
 L power:GND #PWR0119
 U 1 1 601B64B5
-P 10780 1240
-F 0 "#PWR0119" H 10780 990 50  0001 C CNN
-F 1 "GND" H 10785 1067 50  0000 C CNN
-F 2 "" H 10780 1240 50  0001 C CNN
-F 3 "" H 10780 1240 50  0001 C CNN
-	1    10780 1240
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0120
-U 1 1 601C0FC8
-P 10290 1170
-F 0 "#PWR0120" H 10290 920 50  0001 C CNN
-F 1 "GND" H 10295 997 50  0000 C CNN
-F 2 "" H 10290 1170 50  0001 C CNN
-F 3 "" H 10290 1170 50  0001 C CNN
-	1    10290 1170
+P 10450 1180
+F 0 "#PWR0119" H 10450 930 50  0001 C CNN
+F 1 "GND" H 10455 1007 50  0000 C CNN
+F 2 "" H 10450 1180 50  0001 C CNN
+F 3 "" H 10450 1180 50  0001 C CNN
+	1    10450 1180
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0121
 U 1 1 601C5B3D
-P 9550 1150
-F 0 "#PWR0121" H 9550 1000 50  0001 C CNN
-F 1 "+3.3V" H 9565 1323 50  0000 C CNN
-F 2 "" H 9550 1150 50  0001 C CNN
-F 3 "" H 9550 1150 50  0001 C CNN
-	1    9550 1150
-	-1   0    0    1   
+P 9820 860
+F 0 "#PWR0121" H 9820 710 50  0001 C CNN
+F 1 "+3.3V" H 9835 1033 50  0000 C CNN
+F 2 "" H 9820 860 50  0001 C CNN
+F 3 "" H 9820 860 50  0001 C CNN
+	1    9820 860 
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0122
@@ -1378,10 +1345,6 @@ F 3 "" H 9730 3050 50  0001 C CNN
 	1    9730 3050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7550 1110 1    50   Input ~ 0
-P1.2
-Text GLabel 8490 1010 1    50   Input ~ 0
-P1.5
 $Comp
 L power:+3.3V #PWR0110
 U 1 1 60189138
@@ -1393,10 +1356,29 @@ F 3 "" H 7200 4970 50  0001 C CNN
 	1    7200 4970
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 850  1    50   Input ~ 0
+Text GLabel 9820 1160 3    50   Input ~ 0
 DTR
-Text GLabel 10290 870  1    50   Input ~ 0
+Text GLabel 10450 780  1    50   Input ~ 0
 DTR
-Text GLabel 10780 840  1    50   Input ~ 0
-DTR
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J3
+U 1 1 602E430E
+P 1220 5590
+F 0 "J3" H 1327 6457 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1327 6366 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1370 5590 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1370 5590 50  0001 C CNN
+	1    1220 5590
+	1    0    0    -1  
+$EndComp
+Text GLabel 1820 5590 2    50   Input ~ 0
+D-
+Text GLabel 1820 5790 2    50   Input ~ 0
+D+
+NoConn ~ 1820 6090
+NoConn ~ 1820 6190
+Text GLabel 8490 1010 1    50   Input ~ 0
+P3.0
+Text GLabel 7550 1110 1    50   Input ~ 0
+P3.1
 $EndSCHEMATC
